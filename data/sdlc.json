@@ -1,0 +1,178 @@
+[
+   {
+      "question": "En algunos equipos Agile, se alienta a las personas a usar sus habilidades para ayudar al equipo, independientemente de su rol. Esto puede significar que los testers ayuden a los desarrolladores a escribir código y que los desarrolladores ayuden a los testers a probar. ¿Cómo se llama este enfoque?",
+      "options": [
+        "Team Aid",
+        "Whole Team",
+        "Skills First",
+        "First Aid"
+      ],
+      "correct": "Whole Team",
+      "image": ""
+    },
+     {
+      "question": "¿Durante qué nivel o niveles de testing deberían ejecutarse las pruebas no funcionales?",
+      "options": [
+        "Solo en pruebas unitarias e integración",
+        "Solo en pruebas de sistema",
+        "Solo en pruebas de integración, sistema y aceptación",
+        "En pruebas unitarias, de integración, de sistema y de aceptación"
+      ],
+      "correct": "En pruebas unitarias, de integración, de sistema y de aceptación",
+      "image": ""
+    },
+    {
+      "question": "Cuando un sistema está destinado a ser retirado, ¿qué tipo de pruebas de mantenimiento pueden ser necesarias?",
+      "options": [
+        "Pruebas de retiro",
+        "Pruebas de regresión",
+        "Pruebas de migración de datos",
+        "Pruebas de parches"
+      ],
+      "correct": "Pruebas de retiro",
+      "image": ""
+    },
+     {
+      "question": "En un modelo de ciclo de vida iterativo, ¿cuál de las siguientes afirmaciones sobre las actividades de testing es correcta?",
+      "options": [
+        "Por cada actividad de desarrollo debería existir una actividad de testing correspondiente",
+        "Por cada actividad de testing se debería producir, versionar y almacenar documentación apropiada",
+        "Por cada actividad de desarrollo que resulte en código, debería existir una actividad de testing para documentar casos de prueba",
+        "Por cada actividad de testing se deberían registrar métricas y publicarlas en un tablero accesible para todos los stakeholders"
+      ],
+      "correct": "Por cada actividad de desarrollo debería existir una actividad de testing correspondiente",
+      "image": ""
+    },
+    {
+      "question": "¿De qué manera CI/CD es un ejemplo del concepto de shift-left?",
+      "options": [
+        "Permite llevar el código a producción más rápido",
+        "Permite que los desarrolladores integren su código de forma continua",
+        "Requiere testing continuo a lo largo de todo el pipeline",
+        "Eleva a los testers como los responsables de la calidad"
+      ],
+      "correct": "Requiere testing continuo a lo largo de todo el pipeline",
+      "image": ""
+    },
+    {
+      "question": "Al utilizar la técnica de las 3 C para el desarrollo de historias de usuario, ¿qué producto de trabajo se crea para el aspecto de Confirmación?",
+      "options": [
+        "Enfoque de pruebas",
+        "Criterios de aceptación",
+        "Criterios de entrada",
+        "Criterios de salida"
+      ],
+      "correct": "Criterios de aceptación",
+      "image": ""
+    },
+        {
+      "question": "¿En qué cuadrante de testing se ubican las pruebas unitarias?",
+      "options": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "correct": "Q1",
+      "image": ""
+    },
+    {
+      "question": "Tu equipo está utilizando Planning Poker para estimar el esfuerzo de una historia. Aunque se realizaron tres votaciones para llegar a un consenso, ¿cuántos story points deberían asignarse a la historia?",
+      "options": [
+        "10 porque es la suma de los puntos",
+        "8 porque fue el número más alto",
+        "3 porque fue el número más bajo",
+        "5 porque fue el consenso alcanzado"
+      ],
+      "correct": "5 porque fue el consenso alcanzado",
+      "image": "images/question36_a.jpg"
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones muestra un ejemplo de actividades de testing que contribuyen al éxito?",
+      "options": [
+        "Involucrar a los testers durante diversas actividades del ciclo de vida del desarrollo de software (SDLC) ayuda a detectar defectos en los productos de trabajo",
+        "Los testers intentan no molestar a los desarrolladores mientras programan para que escriban mejor código",
+        "Los testers colaboran con los usuarios finales solo durante el testing de integración",
+        "Los testers certificados diseñan casos de prueba mucho mejores que los no certificados"
+      ],
+      "correct": "Involucrar a los testers durante diversas actividades del ciclo de vida del desarrollo de software (SDLC) ayuda a detectar defectos en los productos de trabajo",
+      "image": ""
+    },
+     {
+      "question": "¿Cómo se refleja el enfoque de equipo completo en la interacción entre testers y representantes del negocio?",
+      "options": [
+        "Los representantes del negocio deciden los enfoques de automatización de pruebas",
+        "Los testers ayudan a los representantes del negocio a definir la estrategia de pruebas",
+        "Los representantes del negocio no forman parte del enfoque de equipo completo",
+        "Los testers ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas"
+      ],
+      "correct": "Los testers ayudan a los representantes del negocio a crear pruebas de aceptación adecuadas",
+      "image": ""
+    },
+    {
+      "question": "Considera la siguiente regla: “para cada actividad del SDLC existe una actividad de testing correspondiente”. ¿En qué modelos de SDLC se cumple esta regla?",
+      "options": [
+        "Solo en modelos de desarrollo secuenciales",
+        "Solo en modelos de desarrollo iterativos",
+        "Solo en modelos de desarrollo iterativos e incrementales",
+        "En modelos de desarrollo secuenciales, incrementales e iterativos"
+      ],
+      "correct": "En modelos de desarrollo secuenciales, incrementales e iterativos",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe MEJOR el enfoque de Acceptance Test-Driven Development (ATDD)?",
+      "options": [
+        "En ATDD, los criterios de aceptación se crean típicamente usando el formato dado/cuando/entonces",
+        "En ATDD, los casos de prueba se crean principalmente en el testing de componentes y están orientados al código",
+        "En ATDD, las pruebas se crean a partir de los criterios de aceptación para guiar el desarrollo del software relacionado",
+        "En ATDD, las pruebas se basan en el comportamiento deseado del software, lo que las hace más fáciles de entender"
+      ],
+      "correct": "En ATDD, las pruebas se crean a partir de los criterios de aceptación para guiar el desarrollo del software relacionado",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones NO es un ejemplo del enfoque shift-left?",
+      "options": [
+        "Revisar los requisitos del usuario antes de que sean aceptados formalmente por los stakeholders",
+        "Escribir una prueba de componente antes de que se escriba el código correspondiente",
+        "Ejecutar una prueba de eficiencia de rendimiento para un componente durante el testing de componentes",
+        "Escribir un script de prueba antes de configurar el proceso de gestión de la configuración"
+      ],
+      "correct": "Escribir un script de prueba antes de configurar el proceso de gestión de la configuración",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe MEJOR la forma en que pueden documentarse los criterios de aceptación?",
+      "options": [
+        "Realizando retrospectivas para determinar las necesidades reales de los stakeholders",
+        "Utilizando el formato dado/cuando/entonces para describir una condición de prueba relacionada con una historia de usuario",
+        "Usando comunicación verbal para reducir el riesgo de malentendidos",
+        "Documentando riesgos en un plan de pruebas para facilitar el testing basado en riesgos"
+      ],
+      "correct": "Utilizando el formato dado/cuando/entonces para describir una condición de prueba relacionada con una historia de usuario",
+      "image": ""
+    },
+    {
+      "question": "Considerando la siguiente historia de usuario y sus criterios de aceptación, ¿cuál de las siguientes opciones es el MEJOR ejemplo de una prueba ATDD?",
+      "options": [
+        "Probar si el editor puede guardar el documento luego de editar el contenido de la página",
+        "Probar si el content owner puede iniciar sesión y realizar modificaciones",
+        "Probar si el editor puede programar la publicación del contenido editado",
+        "Probar si el editor puede reasignar a otro editor para realizar modificaciones"
+      ],
+      "correct": "Probar si el editor puede guardar el documento luego de editar el contenido de la página",
+      "image": ""
+    },
+     {
+      "question": "¿Qué producto de trabajo puede utilizar un equipo ágil para mostrar la cantidad de trabajo que se ha completado y la cantidad total de trabajo restante para una iteración determinada?",
+      "opciones": [
+        "Criterios de aceptación",
+        "Reporte de defectos",
+         "Reporte de finalización de pruebas",
+        "Gráfico Burndown"
+      ],
+      "correct": "Gráfico Burndown",
+      "image": ""
+    }
+]

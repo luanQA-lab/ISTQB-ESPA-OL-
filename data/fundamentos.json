@@ -1,0 +1,135 @@
+[
+   {
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "Un desarrollador comete un error que causa un defecto que puede verse como una falla durante las pruebas dinámicas",
+        "Un desarrollador comete un error que resulta en una falla que puede verse como un defecto cuando el software es ejecutado",
+        "Un desarrollador ha introducido una falla que resulta en un defecto que puede verse como un error durante las pruebas dinámicas",
+        "Un desarrollador comete un error que causa un bug que puede verse como un defecto cuando el software es ejecutado"
+      ],
+      "correct": "Un desarrollador comete un error que causa un defecto que puede verse como una falla durante las pruebas dinámicas",
+      "image": ""
+    },
+    {
+      "question": "¿Por qué es importante evitar el principio de que las pruebas se desgastan?",
+      "options": [
+        "Las pruebas dinámicas son menos confiables para encontrar defectos",
+        "Ejecutar las mismas pruebas repetidamente siempre encontrará nuevas fallas",
+        "Las pruebas no deberían depender del contexto",
+        "Ejecutar las mismas pruebas repetidamente reduce la probabilidad de encontrar nuevas fallas"
+      ],
+      "correct": "Ejecutar las mismas pruebas repetidamente reduce la probabilidad de encontrar nuevas fallas",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál es el mayor problema cuando un desarrollador prueba su propio código?",
+      "options": [
+        "Los desarrolladores no son buenos testers",
+        "Los desarrolladores no están enfocados en la calidad",
+        "Los desarrolladores no son objetivos con su propio código",
+        "Los desarrolladores no tienen tiempo para probar su propio código"
+      ],
+      "correct": "Los desarrolladores no son objetivos con su propio código",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes es un ejemplo de una buena práctica de testing?",
+      "options": [
+        "Los testers deberían tener experiencia en desarrollo",
+        "Los desarrolladores deberían determinar el orden de ejecución de las pruebas en los procedimientos de prueba",
+        "El diseño de pruebas debería comenzar cuando el código esté completo para evitar cambios",
+        "Los testers deberían revisar los documentos de requisitos tan pronto como haya un borrador legible disponible"
+      ],
+      "correct": "Los testers deberían revisar los documentos de requisitos tan pronto como haya un borrador legible disponible",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál es la razón principal para obtener retroalimentación temprana y frecuente de los stakeholders sobre un producto que se está desarrollando?",
+      "options": [
+        "Para que se sientan involucrados",
+        "Para asegurar que su visión del producto se haga realidad",
+        "Para crear más reuniones",
+        "Para usar a los stakeholders como testers"
+      ],
+      "correct": "Para asegurar que su visión del producto se haga realidad",
+      "image": ""
+    },
+    {
+      "question": "Has estado probando un software que será utilizado para registrar compras con tarjeta de crédito. Encontraste un defecto que provoca que el sistema se bloquee, pero solo si una persona ha realizado y anulado 10 compras consecutivas. ¿Cuál es la prioridad y severidad adecuadas para este defecto?",
+      "options": [
+        "Prioridad alta, severidad alta",
+        "Prioridad alta, severidad baja",
+        "Prioridad baja, severidad baja",
+        "Prioridad baja, severidad alta"
+      ],
+      "correct": "Prioridad baja, severidad alta",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe un objetivo válido del testing?",
+      "options": [
+        "Probar que no existen defectos sin corregir en el sistema bajo prueba",
+        "Probar que no habrá fallos después de la implementación del sistema en producción",
+        "Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad",
+        "Verificar que no existan combinaciones de entradas sin probar"
+      ],
+      "correct": "Reducir el nivel de riesgo del objeto de prueba y generar confianza en el nivel de calidad",
+      "image": ""
+    },
+    {
+      "question": "Has sido asignado como tester a un equipo que desarrolla un sistema de forma incremental. Observas que durante varias iteraciones no se han realizado cambios en los casos de prueba de regresión y no se han detectado nuevos defectos. Tu gerente está conforme, pero tú no. ¿Qué principio de testing explica tu escepticismo?",
+      "options": [
+        "Las pruebas se desgastan",
+        "Falacia de la ausencia de defectos",
+        "Los defectos tienden a agruparse",
+        "El testing exhaustivo es imposible"
+      ],
+      "correct": "Las pruebas se desgastan",
+      "image": ""
+    },
+     {
+      "question": "¿Cuáles de las siguientes habilidades (i–v) son las MÁS importantes para un tester?",
+      "options": [
+        "Crear una visión del producto y planificar el trabajo del equipo",
+        "Tener conocimiento del dominio, ser un buen jugador de equipo y pensamiento crítico",
+        "Tener conocimiento del dominio, crear una visión del producto y pensamiento crítico",
+        "Ser un buen jugador de equipo y planificar el trabajo del equipo"
+      ],
+      "correct": "Tener conocimiento del dominio, ser un buen jugador de equipo y pensamiento crítico",
+      "image": ""
+    },
+    {
+      "question": "¿Qué tipos de fallos (1–4) se corresponden MEJOR con los niveles de prueba (A–D)?",
+      "options": [
+        "1D, 2B, 3A, 4C",
+        "1D, 2B, 3C, 4A",
+        "1B, 2A, 3D, 4C",
+        "1C, 2B, 3A, 4D"
+      ],
+      "correct": "1D, 2B, 3A, 4C",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es un beneficio del feedback temprano y frecuente?",
+      "options": [
+        "Mejora el proceso de testing para proyectos futuros",
+        "Obliga a los clientes a priorizar sus requisitos en función de los riesgos acordados",
+        "Proporciona una medida de la calidad de los cambios",
+        "Ayuda a evitar malentendidos en los requisitos"
+      ],
+      "correct": "Ayuda a evitar malentendidos en los requisitos",
+      "image": ""
+    },
+    {
+      "question": "Considere las siguientes categorías de prueba (1–4) y los cuadrantes de pruebas ágiles (A–D):\n\n1. Pruebas de usabilidad\n2. Pruebas de componentes\n3. Pruebas funcionales\n4. Pruebas de confiabilidad\n\nA. Cuadrante Q1: orientado a la tecnología, apoya al equipo de desarrollo\nB. Cuadrante Q2: orientado al negocio, apoya al equipo de desarrollo\nC. Cuadrante Q3: orientado al negocio, critica el producto\nD. Cuadrante Q4: orientado a la tecnología, critica el producto\n\n¿Cómo se asignan correctamente las categorías de prueba a los cuadrantes?",
+      "options": [
+         "1C, 2A, 3B, 4D",
+         "1D, 2A, 3C, 4B",
+        "1C, 2B, 3D, 4A",
+         "1D, 2B, 3C, 4A"
+      ],
+      "correct": "1C, 2A, 3B, 4D",
+      "image": ""
+    }
+    
+]

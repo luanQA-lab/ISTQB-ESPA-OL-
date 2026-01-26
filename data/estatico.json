@@ -1,0 +1,57 @@
+[
+  {
+      "question": "Cuando el tester verifica la base de pruebas mientras diseña los casos de prueba en una etapa temprana del ciclo de vida, ¿qué objetivo del testing se está logrando?",
+      "options": [
+        "Ganar confianza",
+        "Encontrar defectos",
+        "Evaluar productos de trabajo",
+        "Proporcionar información para la toma de decisiones"
+      ],
+      "correct": "Evaluar productos de trabajo",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de los siguientes es un beneficio del análisis estático?",
+      "options": [
+        "Se pueden identificar defectos que podrían no ser detectados mediante testing dinámico",
+        "La identificación temprana de defectos requiere menos documentación",
+        "La ejecución temprana del código proporciona una medida de la calidad del código",
+        "No se necesitan herramientas porque se utilizan revisiones en lugar de ejecutar el código"
+      ],
+      "correct": "Se pueden identificar defectos que podrían no ser detectados mediante testing dinámico",
+      "image": ""
+    },
+    {
+      "question": "En una revisión formal, ¿en qué momento del proceso se definen los criterios de salida?",
+      "options": [
+        "Planificación",
+        "Inicio de la revisión",
+        "Revisión individual",
+        "Corrección y reporte"
+      ],
+      "correct": "Planificación",
+      "image": ""
+    },
+    {
+      "question": "Las revisiones utilizadas en tu organización tienen las siguientes características: existe el rol de escriba, el objetivo principal es evaluar la calidad, la reunión es liderada por el autor del producto de trabajo, hay preparación individual y se produce un informe de revisión. ¿Qué tipo de revisión es MÁS probable que se esté utilizando?",
+      "options": [
+        "Revisión informal",
+        "Walkthrough",
+        "Revisión técnica",
+        "Inspección"
+      ],
+      "correct": "Walkthrough",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones NO es un factor que contribuya al éxito de las revisiones?",
+      "options": [
+        "Los participantes deben dedicar tiempo suficiente a la revisión",
+        "Dividir productos de trabajo grandes en partes pequeñas para reducir el esfuerzo requerido",
+        "Los participantes deben evitar comportamientos que indiquen aburrimiento, exasperación u hostilidad hacia otros participantes",
+        "Los fallos encontrados deben ser reconocidos, apreciados y gestionados de forma objetiva"
+      ],
+      "correct": "Los fallos encontrados deben ser reconocidos, apreciados y gestionados de forma objetiva",
+      "image": ""
+    }
+]

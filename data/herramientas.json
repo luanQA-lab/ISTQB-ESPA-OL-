@@ -1,0 +1,82 @@
+[
+  {
+      "question": "Cuando la codificación está dirigida por los casos de prueba, ¿qué enfoque de desarrollo se está utilizando?",
+      "options": [
+        "TDD",
+        "BDD",
+        "ATDD",
+        "TBD"
+      ],
+      "correct": "TDD",
+      "image": ""
+    },
+     {
+      "question": "Si los desarrolladores están entregando código para testing sin control de versiones, ¿qué proceso está faltando?",
+      "options": [
+        "Gestión de la configuración",
+        "Depuración",
+        "Gestión de pruebas y defectos",
+        "Análisis de riesgos"
+      ],
+      "correct": "Gestión de la configuración",
+      "image": ""
+    },
+     {
+      "question": "¿Cuál de los siguientes es un ejemplo de una herramienta que soporta el testing estático?",
+      "options": [
+        "Una herramienta que ayuda a registrar y dar seguimiento a los resultados de revisiones",
+        "Una herramienta de seguimiento de defectos",
+        "Una herramienta de automatización de pruebas",
+        "Una herramienta que ayuda a diseñar casos de prueba para testing de seguridad"
+      ],
+      "correct": "Una herramienta que ayuda a registrar y dar seguimiento a los resultados de revisiones",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de los siguientes es un beneficio del testing automatizado?",
+      "options": [
+        "La ejecución de pruebas es más rápida",
+        "El testing manual se vuelve obsoleto",
+        "El ROI es fácil de determinar",
+        "La implementación de pruebas es más rápida"
+      ],
+      "correct": "La ejecución de pruebas es más rápida",
+      "image": ""
+    },
+    {
+      
+      "question": "Necesitas actualizar uno de los scripts de prueba automatizados para alinearlo con un nuevo requisito. ¿Qué proceso indica que se crea una nueva versión del script de prueba en el repositorio de pruebas?",
+      "options": [
+         "Gestión de la trazabilidad",
+         "Pruebas de mantenimiento",
+         "Gestión de la configuración",
+         "Ingeniería de requisitos"
+        ]
+      ,
+      "correct": "Gestión de la configuración",
+      "image": ""
+    },
+    {
+      "question": "¿Qué actividad de prueba es soportada por una herramienta de preparación de datos?",
+      "options": [
+         "Monitoreo y control de pruebas",
+         "Análisis de pruebas",
+         "Diseño de pruebas e implementación de pruebas",
+         "Cierre de pruebas"
+      ],
+      "correct": "Diseño de pruebas e implementación de pruebas",
+      "image": ""
+    },
+    {
+      "question": "¿Qué elemento identifica correctamente un riesgo potencial de realizar automatización de pruebas?",
+      "options": [
+        "Puede introducir regresiones desconocidas en producción",
+        "Los esfuerzos suficientes para mantener el testware pueden no ser asignados correctamente",
+        "Las herramientas de prueba y el testware asociado pueden no ser suficientemente confiables",
+        "Puede reducir el tiempo asignado para las pruebas manuales"
+      ]
+      ,
+      "correct": "Los esfuerzos suficientes para mantener el testware pueden no ser asignados correctamente",
+      "image": ""
+    }
+]

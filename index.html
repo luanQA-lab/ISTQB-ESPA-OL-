@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Practica ISTQB en Español</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>PRACTICA ISTQB EN ESPAÑOL</h1>
+
+  <!-- SELECCIÓN DE CATEGORÍAS -->
+  <div id="categories" class="grid">
+    <div class="card" data-category="fundamentos">Fundamentos del testing</div>
+    <div class="card" data-category="sdlc">Testing a lo largo del SDLC</div>
+    <div class="card" data-category="estatico">Testing estático</div>
+    <div class="card" data-category="tecnicas">Técnicas de diseño de pruebas</div>
+    <div class="card" data-category="gestion">Gestión del testing</div>
+    <div class="card" data-category="herramientas">Herramientas del testing</div>
+  </div>
+
+  <!-- SELECCIÓN DE CANTIDAD -->
+<div id="amountSelector" class="hidden">
+  <h2>¿Cuántas preguntas querés practicar?</h2>
+
+  <div class="grid">
+    <div class="card amount" data-amount="5">5</div>
+    <div class="card amount" data-amount="10">10</div>
+    <div class="card amount" data-amount="15">15</div>
+    <div class="card amount" data-amount="20">20</div>
+  </div>
+  <button id="backBtn" class="back-btn">←</button>
+
+</div>
+
+
+  <!-- CONTENEDOR DE PREGUNTAS -->
+ <div id="quiz" class="hidden">
+  <div class="question-box">
+    
+    <p id="counter"></p>
+    <img id="questionImage" class="hidden" />
+    <h2 id="question"></h2>
+    <div id="answers"></div>
+    <p id="feedback"></p>
+
+    <button id="nextBtn" class="hidden">Siguiente pregunta</button>
+  </div>
+  <button id="menuBtn" class="menu-btn">Menú</button>
+
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

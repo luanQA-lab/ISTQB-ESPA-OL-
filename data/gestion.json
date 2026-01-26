@@ -1,0 +1,181 @@
+[
+  {
+    "question": "¿Qué DOS tareas pertenecen principalmente al rol de testing?",
+    "options": [
+      "Configurar entornos de prueba",
+      "Mantener el backlog del producto",
+      "Diseñar soluciones",
+      "Crear el plan de pruebas",
+      "Analizar la base de pruebas"
+    ],
+    "correct": "Crear el plan de pruebas, Analizar la base de pruebas"
+  },
+  
+  {
+      "question": "Al seguir un proceso estándar de testing, ¿cuándo debería realizarse la actividad de control de pruebas?",
+      "options": [
+        "Durante las actividades de planificación",
+        "Durante las actividades de implementación y ejecución",
+        "Durante las actividades de monitoreo",
+        "Durante todas las actividades"
+      ],
+      "correct": "Durante todas las actividades",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes actividades compara el progreso planificado de las pruebas con el progreso real?",
+      "options": [
+        "Monitoreo de pruebas",
+        "Planificación de pruebas",
+        "Cierre de pruebas",
+        "Control de pruebas"
+      ],
+      "correct": "Control de pruebas",
+      "image": ""
+    },
+    {
+      "question": "En una revisión formal, ¿qué rol es normalmente responsable de documentar todos los issues abiertos?",
+      "options": [
+        "El facilitador",
+        "El autor",
+        "El secretario (scribe)",
+        "El manager"
+      ],
+      "correct": "El secretario (scribe)",
+      "image": ""
+    },
+    {
+      "question": "Una métrica que registra la cantidad de casos de prueba aprobados se recopila durante ¿qué actividad del proceso de testing?",
+      "options": [
+        "Planificación",
+        "Implementación",
+        "Ejecución",
+        "Reporte"
+      ],
+      "correct": "Ejecución",
+      "image": ""
+    },
+    {
+      "question": "Estás trabajando en un equipo de testers que están escribiendo casos de prueba. Notas una gran inconsistencia en la longitud y el nivel de detalle de los casos de prueba. ¿Dónde deberían documentarse los criterios para la escritura de casos de prueba?",
+      "options": [
+        "El plan de pruebas",
+        "El enfoque de pruebas",
+        "La plantilla de casos de prueba",
+        "El plan del proyecto"
+      ],
+      "correct": "La plantilla de casos de prueba",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de los siguientes es un riesgo del proyecto?",
+      "options": [
+        "Un módulo que realiza cálculos incorrectos debido a un defecto en una fórmula",
+        "Una prueba de performance fallida",
+        "Un problema con la interfaz entre el sistema bajo prueba y un dispositivo periférico",
+        "Un problema con el gerente de desarrollo que provoca que rechace todos los reportes de defectos"
+      ],
+      "correct": "Un problema con el gerente de desarrollo que provoca que rechace todos los reportes de defectos",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes variaciones debería explicarse en el Informe de Resumen de Pruebas (Test Summary Report)?",
+      "options": [
+        "Las variaciones entre los reportes de estado semanales y los criterios de salida de pruebas",
+        "Las variaciones entre los defectos encontrados y los defectos corregidos",
+        "Las variaciones entre lo que se planificó probar y lo que realmente se probó",
+        "Las variaciones entre los casos de prueba ejecutados y el número total de casos de prueba"
+      ],
+      "correct": "Las variaciones entre lo que se planificó probar y lo que realmente se probó",
+      "image": ""
+    },
+      {
+      "question": "Se te han dado varios tests que deben ejecutarse en orden según el riesgo y con el objetivo de realizar el testing lo más rápido posible para proporcionar feedback a los desarrolladores cuanto antes. Dada esta información, ¿cuál es el mejor orden para ejecutar estos tests?",
+      "options": [
+        "2, 4, 5, 6, 1, 3",
+        "4, 3, 2, 5, 6, 1",
+        "2, 5, 6, 4, 1, 3",
+        "6, 1, 3, 2, 4, 5"
+      ],
+      "correct": "2, 4, 5, 6, 1, 3",
+      "image": "images/question37_a.jpg"
+    },
+     {
+      "question": "¿Cuáles de los siguientes factores tienen una influencia SIGNIFICATIVA en el enfoque de testing?",
+      "options": [
+        "El SDLC y la cantidad de defectos detectados en proyectos anteriores",
+        "El SDLC, los riesgos del producto identificados y los nuevos requisitos regulatorios que exigen testing formal de caja blanca",
+        "La cantidad de defectos en proyectos anteriores, los requisitos regulatorios y el entorno de pruebas",
+        "Los riesgos del producto identificados y la configuración del entorno de pruebas"
+      ],
+      "correct": "El SDLC, los riesgos del producto identificados y los nuevos requisitos regulatorios que exigen testing formal de caja blanca",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de los siguientes argumentos usarías para convencer a tu manager de organizar retrospectivas al final de cada ciclo de liberación?",
+      "options": [
+        "Las retrospectivas son muy populares actualmente y los clientes lo apreciarían",
+        "Organizar retrospectivas ahorrará dinero porque sin ellas los usuarios finales no dan feedback inmediato",
+        "Las debilidades del proceso identificadas en la retrospectiva pueden analizarse y servir como lista de tareas para la mejora continua del proceso",
+        "Las retrospectivas adoptan cinco valores como el coraje y el respeto, que son claves para la mejora continua"
+      ],
+      "correct": "Las debilidades del proceso identificadas en la retrospectiva pueden analizarse y servir como lista de tareas para la mejora continua del proceso",
+      "image": ""
+    },
+     {
+      "question": "Estás probando una historia de usuario con tres criterios de aceptación: AC1, AC2 y AC3. Cada criterio está cubierto por un caso de prueba distinto. Los tests se repiten cuando se corrigen los defectos y hay una nueva versión del software. ¿Cuáles de los siguientes tests se ejecutan como pruebas de regresión?",
+      "options": [
+        "Solo 4, 7, 8, 9",
+        "Solo 5, 7",
+        "Solo 4, 6, 8, 9",
+        "Solo 5, 6"
+      ],
+      "correct": "Solo 5, 7",
+      "image": "images/question14_b.jpg"
+    },
+    {
+      "question": "¿Cómo agregan valor los testers a la planificación de iteraciones y releases?",
+      "options": [
+        "Determinando la prioridad de las historias de usuario",
+        "Enfocándose únicamente en los aspectos funcionales del sistema",
+        "Participando en la identificación y evaluación detallada de riesgos de las historias de usuario",
+        "Garantizando la liberación de software de alta calidad mediante el diseño temprano de pruebas"
+      ],
+      "correct": "Participando en la identificación y evaluación detallada de riesgos de las historias de usuario",
+      "image": ""
+    },
+    {
+      "question": "Tu equipo utiliza la técnica de estimación de tres puntos para estimar el esfuerzo de pruebas de una nueva funcionalidad de alto riesgo. Se realizaron las siguientes estimaciones:\n\n• Estimación optimista: 2 horas-persona\n• Estimación más probable: 11 horas-persona\n• Estimación pesimista: 14 horas-persona\n\n¿Cuál es la estimación final?",
+      "options": [
+        "9 horas-persona",
+        "14 horas-persona",
+         "11 horas-persona",
+        "10 horas-persona"
+      ],
+      "correct": "11 horas-persona",
+      "image": ""
+    },
+    {
+  
+      "question": "Estás probando una aplicación móvil que permite a los usuarios encontrar un restaurante cercano según el tipo de comida. Considera la siguiente lista de casos de prueba, sus prioridades (un número menor indica mayor prioridad) y sus dependencias.\n\n¿Cuál de los siguientes casos de prueba debería ejecutarse en tercer lugar?",
+      "options": [
+        "TC 003",
+        "TC 005",
+        "TC 002",
+       "TC 001"
+      ],
+      "correct": "TC 003",
+      "image": "images/question33_b.jpg"
+    },
+    {
+      
+      "question": "Durante un análisis de riesgos se identificó y evaluó el siguiente riesgo:\n\n• Riesgo: El tiempo de respuesta es demasiado largo para generar un reporte\n• Probabilidad del riesgo: media; impacto del riesgo: alto\n• Respuesta al riesgo:\n  o Un equipo de pruebas independiente realiza pruebas de eficiencia del rendimiento durante las pruebas del sistema\n  o Un grupo seleccionado de usuarios finales realiza pruebas alfa y beta antes de la liberación\n\n¿Qué medida se propone tomar como respuesta a este riesgo analizado?",
+      "options": [
+         "Aceptación del riesgo",
+         "Plan de contingencia",
+        "Mitigación del riesgo",
+         "Transferencia del riesgo"
+      ],
+      "correct": "Mitigación del riesgo",
+      "image": ""
+    }
+]

@@ -1,0 +1,257 @@
+[
+  {
+      "question": "Si estás trabajando en un proyecto con restricciones de tiempo y presupuesto, lo que presiona para que el testing se realice rápidamente, ¿cómo debería ajustarse el enfoque de pruebas?",
+      "options": [
+        "Desarrollar casos de prueba detallados para reducir el esfuerzo de automatización",
+        "Usar técnicas como testing exploratorio y listas de verificación para dedicar menos tiempo al desarrollo de casos de prueba",
+        "Asegurar que el testing comience solo después de que los desarrolladores hayan completado las pruebas de integración",
+        "Desarrollar automatización de pruebas end-to-end antes de realizar pruebas manuales para que la automatización pueda usarse antes"
+      ],
+      "correct": "Usar técnicas como testing exploratorio y listas de verificación para dedicar menos tiempo al desarrollo de casos de prueba",
+      "image": ""
+    },
+     {
+      "question": "¿Cuál de las siguientes técnicas de prueba utiliza las especificaciones de requisitos como base de prueba?",
+      "options": [
+        "Basada en la estructura",
+        "Caja negra",
+        "Caja blanca",
+        "Exploratoria"
+      ],
+      "correct": "Caja negra",
+      "image": ""
+    },
+    {
+      "question": "Si estás probando un módulo de código, ¿cómo determinas el nivel de cobertura de decisiones (branch coverage) que has alcanzado?",
+      "options": [
+        "Dividiendo el número de ramas probadas por el número total de sentencias ejecutables del módulo",
+        "Dividiendo el número de ramas probadas por el número total de ramas del módulo",
+        "Dividiendo el número de ramas probadas por el número total de líneas de código del módulo",
+        "Dividiendo el número de ramas probadas por el número total de casos de prueba ejecutados para el módulo"
+      ],
+      "correct": "Dividiendo el número de ramas probadas por el número total de ramas del módulo",
+      "image": ""
+    },
+    {
+      "question": "Si una sección de código tiene una única sentencia IF simple, ¿cuántas pruebas se necesitan para lograr un 100% de cobertura de decisiones (branch coverage)?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "No se puede determinar con esta información"
+      ],
+      "correct": "2",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes es una buena razón para utilizar testing basado en la experiencia?",
+      "options": [
+        "Permite encontrar defectos que podrían ser pasados por alto por técnicas más formales",
+        "Permite probar defectos que solo los usuarios experimentados encontrarían",
+        "Permite enfocar el esfuerzo del desarrollador en las áreas más utilizadas por los usuarios",
+        "Está soportado por herramientas sólidas y puede ser automatizado"
+      ],
+      "correct": "Permite encontrar defectos que podrían ser pasados por alto por técnicas más formales",
+      "image": ""
+    },
+    {
+      "question": "¿Qué es el error guessing?",
+      "options": [
+        "Una técnica de testing utilizada para anticipar dónde un desarrollador probablemente haya cometido errores",
+        "Una técnica utilizada para evaluar métricas de defectos",
+        "Una técnica de desarrollo para verificar que todas las rutas de error han sido codificadas",
+        "Una técnica de planificación utilizada para anticipar variaciones en el cronograma debido a fallos"
+      ],
+      "correct": "Una técnica de testing utilizada para anticipar dónde un desarrollador probablemente haya cometido errores",
+      "image": ""
+    },
+     {
+      "question": "Estás probando una máquina que corrige exámenes y asigna calificaciones. Según el puntaje obtenido, las calificaciones son las siguientes: 1–49 = F, 50–59 = D-, 60–69 = D, 70–79 = C, 80–89 = B, 90–100 = A. Si aplicas partición de equivalencia, ¿cuántos casos de prueba necesitas para lograr la cobertura mínima?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correct": "6",
+      "image": ""
+    },
+    {
+      "question": "Estás probando un termostato para un sistema de calefacción y aire acondicionado. Con los siguientes requisitos: cuando la temperatura es menor a 70 grados se enciende la calefacción; cuando es mayor a 75 grados se enciende el aire acondicionado; cuando está entre 70 y 75 grados inclusive se enciende solo el ventilador. ¿Cuál es el conjunto mínimo de valores de temperatura para lograr 100% de cobertura de análisis de valores límite de dos valores?",
+      "options": [
+        "70, 75",
+        "65, 72, 80",
+        "69, 70, 75, 76",
+        "70, 71, 74, 75, 76"
+      ],
+      "correct": "69, 70, 75, 76",
+      "image": ""
+    },
+    {
+      "question": "Se te han dado las siguientes condiciones y resultados derivados de esas combinaciones. Usando la técnica de tablas de decisión, ¿cuál es el número mínimo de casos de prueba necesarios para probar estas condiciones?",
+      "options": [
+        "7",
+        "13",
+        "15",
+        "18"
+      ],
+      "correct": "15",
+      "image": "images/question27_a.jpg"
+    },
+    {
+      "question": "Se te ha dado el siguiente requisito: un usuario debe iniciar sesión con un nombre de usuario y contraseña válidos. Si falla al ingresar la combinación correcta tres veces, recibirá un error y deberá esperar 10 minutos antes de intentar nuevamente. La prueba termina cuando el usuario inicia sesión correctamente. ¿Cuántos casos de prueba se necesitan para proporcionar 100% de cobertura de transición de estados?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": "1",
+      "image": ""
+    },
+    {
+      "question": "Estás creando casos de prueba para la siguiente historia aplicando el enfoque ATDD: Como dueño de un hotel quiero reservar todas las habitaciones de un piso antes de pasar al siguiente, para maximizar la eficiencia del personal de limpieza. Has identificado las siguientes particiones de equivalencia para la ocupación de un piso: 0 | 1–piso completo | sobreventa. También quieres asegurarte de que el software sea usable para el personal y que tenga buen rendimiento. ¿Cuál debería ser el orden de prioridad de los tests a diseñar?",
+      "options": [
+        "0, 1–piso completo, sobreventa, usabilidad, rendimiento",
+        "Rendimiento, 1–piso completo, usabilidad, sobreventa, 0",
+        "Usabilidad, rendimiento, sobreventa, 0, 1–piso completo",
+        "Sobreventa, 0, 1–piso completo, rendimiento, usabilidad"
+      ],
+      "correct": "Sobreventa, 0, 1–piso completo, rendimiento, usabilidad",
+      "image": ""
+    },
+    {
+      "question": "Trabajas en un equipo que desarrolla una aplicación móvil para pedidos de comida. En la iteración actual se decidió implementar la funcionalidad de pago. ¿Cuál de las siguientes actividades forma parte del análisis de pruebas?",
+      "options": [
+        "Estimar que el testing de la integración con el servicio de pago tomará 8 días persona",
+        "Decidir que el equipo debe probar si es posible compartir correctamente el pago entre varios usuarios",
+        "Utilizar análisis de valores límite para derivar los datos de prueba",
+        "Analizar la diferencia entre el resultado esperado y el resultado real después de ejecutar un caso de prueba y reportar un defecto"
+      ],
+      "correct": "Decidir que el equipo debe probar si es posible compartir correctamente el pago entre varios usuarios",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones NO es un beneficio del testing estático?",
+      "options": [
+        "Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC",
+        "Corregir defectos encontrados durante el testing estático suele ser mucho menos costoso que corregir defectos encontrados durante el testing dinámico",
+        "Encontrar defectos de codificación que podrían no haberse detectado realizando solo testing dinámico",
+        "Detectar vacíos e inconsistencias en los requisitos"
+      ],
+      "correct": "Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes es una característica de las técnicas de prueba basadas en la experiencia?",
+      "options": [
+        "Los casos de prueba se crean a partir de información detallada de diseño",
+        "Los elementos probados dentro del código de interfaz se utilizan para medir la cobertura",
+        "Las técnicas de prueba dependen en gran medida del conocimiento del tester sobre el software y el dominio del negocio",
+        "Los casos de prueba se utilizan para identificar desviaciones respecto a los requisitos"
+      ],
+      "correct": "Las técnicas de prueba dependen en gran medida del conocimiento del tester sobre el software y el dominio del negocio",
+      "image": ""
+    },
+    {
+      "question": "Estás probando un formulario simplificado de búsqueda de departamentos que tiene dos criterios: piso (planta baja, primer piso, segundo piso o superior) y tipo de jardín (sin jardín, jardín pequeño, jardín grande). Los departamentos en planta baja siempre tienen jardín y los de pisos superiores no. El sistema no permite combinaciones inválidas. Aplicando partición de equivalencia para cubrir cada piso y cada tipo de jardín con particiones válidas, ¿cuál es el número mínimo de casos de prueba necesario para lograr una cobertura del 100%?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": "4",
+      "image": ""
+    },
+    {
+      "question": "Estás probando un sistema que calcula la nota final de un curso según el puntaje obtenido: 0–50 (reprobado), 51–60 (regular), 61–70 (satisfactorio), 71–80 (bueno), 81–90 (muy bueno), 91–100 (excelente). Se ha preparado un conjunto de casos de prueba (ver imagen). ¿Qué cobertura de análisis de valores límite de 2 valores (BVA) se alcanza para el resultado final con los casos de prueba existentes?",
+      "options": [
+        "50%",
+        "60%",
+        "33.3%",
+        "100%"
+      ],
+      "correct": "50%",
+      "image": "images/question21_b.jpg"
+    },
+    {
+      "question": "Tu tienda favorita de alquiler diario de bicicletas ha implementado un nuevo sistema de Gestión de Relaciones con Clientes (CRM) y te pidió que lo pruebes. Las funcionalidades implementadas son: cualquier persona puede alquilar una bicicleta, pero los miembros reciben un descuento del 20%; si se excede la fecha de devolución, el descuento deja de aplicarse; después de 15 alquileres, los miembros reciben un regalo: una remera. Se ha definido una tabla de decisión para describir estas reglas. Basándote ÚNICAMENTE en la descripción de las funcionalidades del sistema, ¿cuál de las siguientes reglas describe una situación imposible?",
+      "options": [
+        "R4",
+        "R2",
+        "R6",
+        "R8"
+      ],
+      "correct": "R8",
+      "image": "images/question22_b.jpg"
+    },
+    {
+      "question": "Estás probando un sistema cuyo ciclo de vida está modelado por un diagrama de transición de estados. El sistema comienza en el estado INIT y finaliza en el estado OFF. ¿Cuál es el NÚMERO MÍNIMO de casos de prueba necesarios para lograr cobertura de transiciones válidas?",
+      "options": [
+        "4",
+        "2",
+        "7",
+        "3"
+      ],
+      "correct": "3",
+      "image": "image/question23_b.jpg"
+    },
+    {
+      "question": "Tu conjunto de pruebas alcanzó el 100% de cobertura de sentencias. ¿Cuál es la consecuencia de este hecho?",
+      "options": [
+        "Cada instrucción del código que contiene un defecto fue ejecutada al menos una vez",
+        "Cualquier conjunto de pruebas que contenga más casos de prueba que el tuyo también alcanzará el 100% de cobertura de sentencias",
+        "Cada camino del código fue ejecutado al menos una vez",
+        "Cada combinación de valores de entrada fue probada al menos una vez"
+      ],
+      "correct": "Cada instrucción del código que contiene un defecto fue ejecutada al menos una vez",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones NO es verdadera para el testing de caja blanca?",
+      "options": [
+        "Durante el testing de caja blanca se considera toda la implementación del software",
+        "Las métricas de cobertura de caja blanca pueden ayudar a identificar pruebas adicionales para aumentar la cobertura del código",
+        "Las técnicas de prueba de caja blanca pueden utilizarse en el testing estático",
+        "El testing de caja blanca puede ayudar a identificar vacíos en la implementación de los requisitos"
+      ],
+      "correct": "El testing de caja blanca puede ayudar a identificar vacíos en la implementación de los requisitos",
+      "image": ""
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe MEJOR el concepto detrás de la técnica de adivinación de errores (error guessing)?",
+      "options": [
+        "Utiliza el conocimiento y la experiencia sobre defectos encontrados anteriormente y errores típicos cometidos por los desarrolladores",
+        "Utiliza la experiencia personal del tester como desarrollador y los errores que cometía al programar",
+        "Requiere imaginar que el tester es el usuario del sistema y adivinar errores que el usuario podría cometer",
+        "Requiere replicar rápidamente la tarea de desarrollo para identificar errores que un desarrollador podría cometer"
+      ],
+      "correct": "Utiliza el conocimiento y la experiencia sobre defectos encontrados anteriormente y errores típicos cometidos por los desarrolladores",
+      "image": ""
+    },
+    {
+      "question": "En tu proyecto hubo un retraso en la liberación de una nueva aplicación y la ejecución de pruebas comenzó tarde. Tenés amplio conocimiento del dominio y buenas habilidades analíticas, pero la lista completa de requisitos aún no está disponible. La gerencia solicita resultados de testing. ¿Qué técnica de prueba se adapta MEJOR a esta situación?",
+      "options": [
+        "Testing basado en checklists",
+        "Adivinación de errores",
+        "Testing exploratorio",
+        "Testing de ramas"
+      ],
+      "correct": "Testing exploratorio",
+      "image": ""
+    },
+    {
+      "question": "Tu tienda favorita de alquiler diario de bicicletas ha introducido un nuevo sistema CRM y te pide que lo pruebes. Las funcionalidades implementadas son:\n\n• Cualquiera puede alquilar una bicicleta, pero los miembros reciben un 20% de descuento\n• Si se excede la fecha de devolución, el descuento ya no se aplica\n• Después de 15 alquileres, los miembros reciben un regalo: una camiseta\n\nSegún la tabla de decisión que describe estas funcionalidades, ¿cuál de las siguientes reglas representa una situación imposible?",
+      "options": [
+         "R4",
+        "R2",
+         "R6",
+        "R8"
+      ],
+      "correct": "R8",
+      "image": "images/question22_b.jpg"
+
+
+    }
+]
