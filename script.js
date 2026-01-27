@@ -140,8 +140,17 @@ document.getElementById("backBtn").onclick = () => {
   showMainMenu();
 };
 
+document.getElementById("amountbtn").onclick = () => {
+  returnamountmenu();
+};
 
 function showMainMenu() {  quizContainer.classList.add("hidden");
   amountSelector.classList.add("hidden");
   categoriesContainer.classList.remove("hidden");
+}
+
+function returnamountmenu() {
+  quizContainer.classList.add("hidden");
+  amountSelector.classList.remove("hidden");
+  categoriesContainer.classList.add("hidden");
 }
