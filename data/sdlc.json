@@ -166,7 +166,7 @@
     },
      {
       "question": "¿Qué producto de trabajo puede utilizar un equipo ágil para mostrar la cantidad de trabajo que se ha completado y la cantidad total de trabajo restante para una iteración determinada?",
-      "opciones": [
+      "options": [
         "Criterios de aceptación",
         "Reporte de defectos",
          "Reporte de finalización de pruebas",

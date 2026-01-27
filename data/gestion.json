@@ -1,17 +1,5 @@
 [
   {
-    "question": "¿Qué DOS tareas pertenecen principalmente al rol de testing?",
-    "options": [
-      "Configurar entornos de prueba",
-      "Mantener el backlog del producto",
-      "Diseñar soluciones",
-      "Crear el plan de pruebas",
-      "Analizar la base de pruebas"
-    ],
-    "correct": "Crear el plan de pruebas, Analizar la base de pruebas"
-  },
-  
-  {
       "question": "Al seguir un proceso estándar de testing, ¿cuándo debería realizarse la actividad de control de pruebas?",
       "options": [
         "Durante las actividades de planificación",
