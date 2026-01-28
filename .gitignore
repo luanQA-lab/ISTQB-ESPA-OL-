@@ -1,4 +1,4 @@
 node_modules
-cypressvideos
-cypressscreenshots
+cypress/videos
+cypress/screenshots
 .env
