@@ -1,0 +1,23 @@
+{
+  "name": "istqb-espanol",
+  "version": "1.0.0",
+  "description": "Web para practicar preguntas del ISTQB Foundation Level.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanQA-lab/ISTQB-ESPA-OL-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanQA-lab/ISTQB-ESPA-OL-/issues"
+  },
+  "homepage": "https://github.com/luanQA-lab/ISTQB-ESPA-OL-#readme",
+  "dependencies": {
+    "cypress": "^15.9.0"
+  }
+}
