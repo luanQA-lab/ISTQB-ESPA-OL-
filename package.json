@@ -7,7 +7,7 @@
   "cypress:open": "cypress open",
   "cypress:run": "cypress run",
   "test": "cypress run"
-}
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luanQA-lab/ISTQB-ESPA-OL-.git"
