@@ -1,28 +1,20 @@
-name: Cypress CI
+name: Cypress Tests
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+  push:
+    branches: [ main ]
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v6
-        with:
-          working-directory: cypress
+        run: npm test
